@@ -5,7 +5,6 @@ import { ChevronDownIcon } from "@chakra-ui/icons";
 import { useRouter } from "next/router";
 import PostCreated from "../components/post-created";
 import PortalPopup from "../components/portal-popup";
-import PostContainer11111111111 from "../components/frame-34331";
 import styles from "./create-post.module.css";
 
 const CreatePost: NextPage = () => {
@@ -294,7 +293,6 @@ const CreatePost: NextPage = () => {
         </div>
         <div className={styles.textArea}>Text Area</div>
         <img className={styles.icon5} alt="" />
-        <PostContainer111111111111 carImageUrl="image-29127@2x.png" />
         <form className={styles.group481543default}>
           <img
             className={styles.image30Icon}
@@ -683,11 +681,6 @@ const CreatePost: NextPage = () => {
                   src="../Assets/vuesaxlinearheartslash13.svg"
                 />
               </div>
-              <PostContainer111111111111
-                carImageUrl="image-2917@2x.png"
-                propTop="374px"
-                propLeft="12px"
-              />
             </article>
           </div>
         </div>

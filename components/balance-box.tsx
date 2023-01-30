@@ -11,7 +11,6 @@ const BalanceBox: NextPage<BalanceBoxType> = ({ maxLength }) => {
       className={styles.groupChild}
       alt=""
       src="../Assets/rectangle-6954@2x.png"
-      maxLength={maxLength}
     />
   );
 };
