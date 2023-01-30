@@ -1,0 +1,129 @@
+.image29Icon {
+  position: relative;
+  width: 46.15px;
+  height: 46.15px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.alexRodrigues {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+}
+.alexir {
+  margin: 0;
+}
+.inputleftaddon,
+.textPlaceholder {
+  position: relative;
+  line-height: 150%;
+}
+.inputleftaddon {
+  white-space: pre-wrap;
+}
+.textPlaceholder {
+  color: var(--color-dimgray-100);
+  display: inline-block;
+  width: 352px;
+  flex-shrink: 0;
+}
+.image29Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.vectorIcon {
+  position: relative;
+  width: 20px;
+  height: 17.8px;
+  flex-shrink: 0;
+}
+.groupIcon,
+.vectorIcon1 {
+  position: absolute;
+  height: 80.5%;
+  width: 89.58%;
+  top: 9.75%;
+  right: 5.21%;
+  bottom: 9.75%;
+  left: 5.21%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon:active {
+  appearance: none;
+}
+.vectorIcon1 {
+  height: 89.58%;
+  top: 5.21%;
+  bottom: 5.21%;
+}
+.heartSlash,
+.vectorIcon2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.vectorIcon2 {
+  top: 100%;
+  right: -100%;
+  bottom: -100%;
+  left: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0;
+}
+.heartSlash {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.vuesaxlinearheartSlash {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.vuesaxlinearheartSlash,
+.vuesaxlinearheartSlash:hover {
+  background-color: var(--color-white);
+}
+.vuesaxlinearheartSlash:active {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.frameParent,
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.vectorParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-items: center;
+  gap: var(--gap-7xs);
+}
+.vectorParent:active,
+.vectorParent:hover,
+.vuesaxlinearheartSlash:active {
+  background-color: var(--color-white);
+}
+.frameParent {
+  position: absolute;
+  top: 104px;
+  left: 412px;
+  width: 795px;
+  height: 75px;
+  align-items: flex-start;
+  gap: var(--gap-7xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-100);
+  font-family: var(--heading-h2);
+}

@@ -1,0 +1,125 @@
+.image15Icon {
+  position: absolute;
+  height: 140.63%;
+  width: 187.5%;
+  top: -20%;
+  right: -45%;
+  bottom: -20.62%;
+  left: -42.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logo1,
+.nfteaIcon {
+  position: relative;
+  flex-shrink: 0;
+  display: none;
+}
+.logo1 {
+  background-color: var(--color-white);
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.nfteaIcon {
+  width: 110px;
+  height: 24.89px;
+}
+.logo {
+  background-color: var(--color-white);
+  padding: 0 var(--padding-xs);
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.field,
+.logo,
+.logoNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.field {
+  border: 1px solid var(--color-aliceblue);
+  font-family: var(--heading-h2);
+  font-size: var(--font-size-xl);
+  background-color: var(--color-white);
+  border-radius: var(--br-4xl);
+  padding: var(--padding-xs) var(--padding-md);
+  justify-content: center;
+}
+.logoNav {
+  justify-content: flex-start;
+  gap: 120px;
+}
+.explore {
+  cursor: pointer;
+}
+.explore,
+.resources {
+  position: relative;
+  font-weight: 600;
+  display: none;
+}
+.menus {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.accountBalanceWalletBlack2Icon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.content,
+.icon {
+  flex-direction: row;
+}
+.icon {
+  display: none;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.content {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigationBar {
+  position: absolute;
+  top: -18px;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 8px 12px rgba(30, 30, 30, 0.04);
+  width: 1440px;
+  height: 147px;
+  display: flex;
+  flex-direction: column;
+  padding: 22px 60px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigationBarWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 129px;
+}
+.frameParent {
+  position: relative;
+  width: 100%;
+  height: 129px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-cornflowerblue-300);
+  font-family: var(--heading-h2);
+}

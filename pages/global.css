@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --heading-h2: Inter;
+  --font-roboto: Roboto;
+  --font-open-sans: "Open Sans";
+  --font-roboto-mono: "Roboto Mono";
+
+  /* font sizes */
+  --font-size-base: 12px;
+  --font-size-lg: 14px;
+  --font-size-xl: 16px;
+  --lead-lead-1-size: 18px;
+  --font-size-3xl: 20px;
+  --font-size-4xl: 24px;
+  --font-size-5xl: 28px;
+  --font-size-6xl: 32px;
+  --font-size-7xl: 40px;
+  --heading-h2-size: 48px;
+  --font-size-9xl: 64px;
+
+  /* Colors */
+  --color-white: #fff;
+  --grey-200: #d4ddea;
+  --color-cornflowerblue-100: #13a7fd;
+  --color-cornflowerblue-200: #1da1f2;
+  --color-cornflowerblue-300: #029cf5;
+  --color-gray-100: #888;
+  --color-gray-200: #222;
+  --color-gray-300: #18212e;
+  --color-gray-400: #131516;
+  --color-gray-500: #141414;
+  --color-gray-600: #111;
+  --color-gray-700: #0d0d0d;
+  --color-gray-800: rgba(0, 0, 0, 0.74);
+  --color-gray-900: rgba(42, 41, 41, 0.94);
+  --color-gray-1000: rgba(22, 21, 21, 0.98);
+  --color-gray-1100: rgba(13, 13, 13, 0.3);
+  --color-gray-1200: rgba(255, 255, 255, 0.4);
+  --color-gray-1300: rgba(255, 255, 255, 0.82);
+  --color-gray-1400: rgba(13, 13, 13, 0.23);
+  --color-gray-1500: rgba(255, 255, 255, 0.36);
+  --color-gray-1600: rgba(0, 0, 0, 0);
+  --color-gray-1700: rgba(0, 0, 0, 0.36);
+  --color-gray-1800: rgba(255, 255, 255, 0.23);
+  --color-gray-1900: rgba(0, 0, 0, 0.01);
+  --color-gray-2000: rgba(0, 0, 0, 0.98);
+  --color-gray-2100: rgba(255, 255, 255, 0.3);
+  --color-dimgray-100: #585858;
+  --color-dimgray-200: #4a5568;
+  --color-dimgray-300: #4d4d4d;
+  --color-dimgray-400: #4c4b4b;
+  --color-black: #000;
+  --color-tomato: rgba(250, 60, 50, 0.99);
+  --color-darkslategray-100: #2d3748;
+  --color-darkslategray-200: #1d2a3c;
+  --color-darkslategray-300: rgba(51, 51, 51, 0.4);
+  --color-darkslategray-400: rgba(52, 67, 75, 0.15);
+  --grey-600: #718096;
+  --color-slategray-200: #636c80;
+  --color-mediumslateblue-100: #6576fa;
+  --color-mediumslateblue-200: #4c5ff9;
+  --color-aliceblue: #e2e8f0;
+  --color-maroon-100: #840707;
+  --color-maroon-200: #540000;
+  --color-whitesmoke-100: #f4f8fb;
+  --color-whitesmoke-200: #f5f7fa;
+  --color-whitesmoke-300: #eff2f5;
+  --color-whitesmoke-400: #ebebeb;
+  --color-gainsboro-100: #e3e5e5;
+  --color-gainsboro-200: #d9d9d9;
+  --color-gainsboro-300: rgba(217, 217, 217, 0.4);
+  --color-lightsteelblue-100: #c5d1e2;
+  --color-lightsteelblue-200: #c3d0e2;
+  --color-lightsteelblue-300: #b9c1fe;
+  --grey-500: #a0aec0;
+  --color-lightsteelblue-500: #93a9c3;
+  --color-lightgray-100: #d5d5d5;
+  --color-lightslategray-100: #90a1b7;
+  --color-lightslategray-200: #8d9ca5;
+  --color-royalblue-100: #4c7bf9;
+  --color-royalblue-200: #1877f2;
+  --color-darkgray: #a7b2be;
+  --color-orangered-100: #ff4500;
+  --color-orangered-200: #cc0505;
+  --color-mediumspringgreen: #25d366;
+  --color-darkblue-100: #1932c0;
+  --primary-dark-blue: #162ba9;
+  --color-mediumaquamarine-100: #82d5a5;
+  --green-3: #6fcf97;
+  --color-dodgerblue-100: #3b95ff;
+  --color-pink: #ffc4c4;
+  --color-plum: #ffbae3;
+  --color-firebrick: #a80505;
+  --color-silver: #bcb8b8;
+  --color-midnightblue: #010c5f;
+  --color-purple: #5e0039;
+
+  /* Gaps */
+  --gap-13xs: 2px;
+  --gap-12xs: 4px;
+  --gap-11xs: 6px;
+  --gap-10xs: 8px;
+  --gap-9xs: 10px;
+  --gap-8xs: 12px;
+  --gap-7xs: 14px;
+  --gap-6xs: 15px;
+  --gap-5xs: 16px;
+  --gap-4xs: 17px;
+  --gap-3xs: 18px;
+  --gap-2xs: 24px;
+  --gap-xs: 30px;
+  --gap-sm: 32px;
+  --gap-md: 35px;
+  --gap-lg: 36px;
+  --gap-xl: 40px;
+  --gap-2xl: 42px;
+  --gap-3xl: 44px;
+  --gap-4xl: 48px;
+  --gap-5xl: 61px;
+  --gap-6xl: 64px;
+  --gap-7xl: 66px;
+  --gap-8xl: 80px;
+  --gap-9xl: 109px;
+  --gap-10xl: 156px;
+  --gap-11xl: 160px;
+  --gap-12xl: 875px;
+  --gap-13xl: 953px;
+
+  /* Paddings */
+  --padding-7xs: 4px;
+  --padding-6xs: 6px;
+  --padding-5xs: 7px;
+  --padding-4xs: 8px;
+  --padding-3xs: 9px;
+  --padding-2xs: 10px;
+  --padding-xs: 12px;
+  --padding-sm: 14px;
+  --padding-md: 16px;
+  --padding-lg: 24px;
+  --padding-xl: 36px;
+  --padding-2xl: 40px;
+  --padding-3xl: 44px;
+  --padding-4xl: 48px;
+  --padding-5xl: 50px;
+  --padding-6xl: 100px;
+  --padding-7xl: 165px;
+
+  /* border radiuses */
+  --br-6xs: 2px;
+  --br-5xs: 4px;
+  --br-4xs: 5px;
+  --br-3xs: 8px;
+  --br-2xs: 11px;
+  --br-xs: 12px;
+  --br-sm: 15px;
+  --br-md: 16px;
+  --br-lg: 24px;
+  --br-xl: 42px;
+  --br-2xl: 48px;
+  --br-3xl: 50px;
+  --br-4xl: 100px;
+  --br-5xl: 9999px;
+}

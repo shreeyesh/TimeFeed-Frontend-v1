@@ -1,0 +1,25 @@
+.vectorIcon,
+.vuesaxlinearheartSlashIcon {
+  position: relative;
+  width: 20px;
+  height: 17.8px;
+  flex-shrink: 0;
+}
+.vuesaxlinearheartSlashIcon {
+  width: 24px;
+  height: 24px;
+}
+.frameParent,
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vectorParent {
+  gap: var(--gap-7xs);
+}
+.frameParent {
+  position: relative;
+  width: 100%;
+}

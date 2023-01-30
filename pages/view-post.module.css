@@ -1,0 +1,696 @@
+.frameChild,
+.timefeedLowResolutionLogoB {
+  border: 0;
+  background-color: transparent;
+  position: relative;
+  flex-shrink: 0;
+}
+.timefeedLowResolutionLogoB {
+  cursor: pointer;
+  padding: 0;
+  width: 272px;
+  height: 74px;
+  background-image: url(../public/Assets/timefeedlowresolutionlogoblackonwhitebackground-32@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.frameChild {
+  font-family: var(--heading-h2);
+  font-size: var(--font-size-xl);
+  width: 337px;
+  height: 56px;
+}
+.darkModeChild {
+  position: absolute;
+  top: 16px;
+  left: 51px;
+  width: 28px;
+  height: 27px;
+}
+.darkMode,
+.explore {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: relative;
+}
+.darkMode {
+  background-color: var(--color-dodgerblue-100);
+  border-radius: var(--br-3xl);
+  width: 89px;
+  height: 59px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.explore {
+  background-color: transparent;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  font-family: var(--heading-h2);
+  color: var(--color-cornflowerblue-300);
+  text-align: left;
+  display: inline-block;
+}
+.menus {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.accountBalanceWalletBlack2Icon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.timefeedLowResolutionLogoBParent {
+  width: 1351px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar,
+.navbarWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navbar {
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-3xl);
+}
+.navbarWrapper {
+  position: absolute;
+  top: 146px;
+  left: 0;
+  flex-direction: row;
+}
+.image29Icon,
+.image49Icon {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+}
+.image49Icon {
+  left: 0.57px;
+  border-radius: var(--br-3xs);
+  width: 301.71px;
+  height: 330px;
+}
+.image29Icon {
+  height: 115.38%;
+  width: 115.38%;
+  right: -15.38%;
+  bottom: -15.38%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.profile,
+.profile1,
+.profile2,
+.profile3,
+.profile4 {
+  position: relative;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--grey-200);
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+.profile1,
+.profile2,
+.profile3,
+.profile4 {
+  z-index: 1;
+  margin-left: -12px;
+}
+.profile2,
+.profile3,
+.profile4 {
+  z-index: 2;
+}
+.profile3,
+.profile4 {
+  z-index: 3;
+}
+.profile4 {
+  z-index: 4;
+}
+.verified2Icon {
+  position: absolute;
+  margin: 0 !important;
+  height: 55.56%;
+  width: 13.89%;
+  top: 63.89%;
+  right: -1.77%;
+  bottom: -19.44%;
+  left: 87.88%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 5;
+}
+.profileParent {
+  position: absolute;
+  top: 310px;
+  left: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupChild,
+.groupChild:hover {
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  backdrop-filter: blur(32px);
+}
+.groupChild {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-dimgray-300);
+  width: 48px;
+  height: 48px;
+  mix-blend-mode: lighten;
+  appearance: none;
+}
+.groupChild:hover {
+  background-color: var(--color-tomato);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.vuesaxboldheartIcon {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+}
+.auctionsChild,
+.rectangleParent {
+  position: absolute;
+  top: 12px;
+  left: 242px;
+  width: 48px;
+  height: 48px;
+}
+.auctionsChild {
+  cursor: pointer;
+  top: 72px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-2100);
+  backdrop-filter: blur(32px);
+  appearance: none;
+}
+.auctionsChild:checked {
+  background-color: var(--color-gray-2000);
+  border: 1px solid var(--color-gray-1900);
+  box-sizing: border-box;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(32px);
+  appearance: none;
+}
+.groupItem,
+.vuesaxlinearheartSlashIcon {
+  position: absolute;
+  top: 84px;
+  left: 254px;
+  width: 24px;
+  height: 24px;
+}
+.groupItem {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 124px;
+  height: 48px;
+  object-fit: cover;
+}
+.iconlyboldgraph {
+  position: absolute;
+  height: 88.89%;
+  width: 24.04%;
+  top: 0;
+  right: 74.83%;
+  bottom: 11.11%;
+  left: 1.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.path33909Icon,
+.vuesaxlinearunlimitedIcon {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+}
+.path33909Icon {
+  height: 63.18%;
+  width: 17.59%;
+  top: 18.3%;
+  right: 82.4%;
+  bottom: 18.52%;
+  left: 0.01%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div {
+  position: absolute;
+  top: 3px;
+  left: 25px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.01em;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: var(--heading-h2);
+  color: var(--color-white);
+  text-align: left;
+}
+.iconlyboldgraphParent {
+  position: absolute;
+  height: 56.25%;
+  width: 77.42%;
+  top: 22.92%;
+  right: 14.52%;
+  bottom: 20.83%;
+  left: 8.06%;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  width: 124px;
+  height: 48px;
+}
+.auctions1 {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  border-radius: var(--br-xs);
+  width: 302px;
+  height: 330px;
+  background-image: url(../public/Assets/auctions1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.formationOfUse,
+.image29Icon5 {
+  position: relative;
+  flex-shrink: 0;
+}
+.formationOfUse {
+  font-weight: 600;
+  display: inline-block;
+  width: 267px;
+}
+.image29Icon5 {
+  width: 14.77px;
+  height: 24px;
+  object-fit: cover;
+}
+.iFeelLike {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.europeLedBy {
+  margin: 0;
+}
+.description {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+}
+.descriptionWrapper,
+.frameWrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  justify-content: center;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-200);
+}
+.frameDiv,
+.frameParent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.frameDiv {
+  position: absolute;
+  top: 374px;
+  left: 12px;
+  gap: var(--gap-3xl);
+  font-size: var(--font-size-3xl);
+}
+.div1,
+.timeGained {
+  position: absolute;
+  top: 463px;
+  font-weight: 600;
+}
+.timeGained {
+  left: 30px;
+  display: inline-block;
+  width: 221px;
+}
+.div1 {
+  left: 251px;
+  color: var(--color-cornflowerblue-300);
+  text-align: right;
+}
+.auctions {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  box-shadow: 0 8px 12px rgba(30, 30, 30, 0.04);
+  width: 318px;
+  height: 500px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.auctionsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameContainer {
+  width: 1283px;
+  align-items: flex-start;
+}
+.frameGroup {
+  position: absolute;
+  top: 8px;
+  left: 60px;
+  align-items: center;
+  gap: var(--gap-xl);
+  color: var(--color-gray-400);
+}
+.desktop1Child,
+.vuesaxlineararrowRightIcon {
+  position: absolute;
+  top: 24px;
+  left: 298px;
+  width: 24px;
+  height: 24px;
+}
+.desktop1Child {
+  top: 1269px;
+  left: 0;
+  background-color: rgba(30, 30, 30, 0.04);
+  width: 1440px;
+  height: 60px;
+}
+.new,
+.trending {
+  position: absolute;
+  top: 1257px;
+  left: 407px;
+  display: none;
+}
+.trending {
+  top: 1220px;
+  left: 192px;
+}
+.related {
+  position: absolute;
+  top: 1269px;
+  left: 3px;
+}
+.image51Icon,
+.image52Icon,
+.image54Icon,
+.image55Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 315px;
+  height: 323px;
+  object-fit: cover;
+}
+.image51Icon,
+.image52Icon,
+.image55Icon {
+  left: 329px;
+  border-radius: var(--br-3xs);
+  width: 96px;
+  height: 103px;
+}
+.image51Icon,
+.image52Icon {
+  top: 110px;
+  height: 102px;
+}
+.image51Icon {
+  top: 220px;
+  height: 103px;
+}
+.desktop1Item,
+.image54Parent {
+  position: absolute;
+  top: 1328px;
+  left: 1007px;
+  width: 425px;
+  height: 323px;
+}
+.desktop1Item {
+  top: 219px;
+  left: 506px;
+  border-radius: var(--br-3xs);
+  background-color: rgba(217, 217, 217, 0.2);
+  width: 701px;
+  height: 891px;
+}
+.desktop1Inner,
+.viewMore {
+  position: absolute;
+  top: 207px;
+  left: 545px;
+  width: 152px;
+  height: 76px;
+}
+.viewMore {
+  top: 1098px;
+  left: 785px;
+  line-height: 150%;
+  display: inline-block;
+  width: 110px;
+  height: 25px;
+}
+.image56Icon,
+.verified1Icon {
+  position: absolute;
+  object-fit: cover;
+}
+.image56Icon {
+  top: 101px;
+  left: 412px;
+  border-radius: var(--br-sm) 0 0 0;
+  width: 46px;
+  height: 49px;
+}
+.verified1Icon {
+  height: 1.45%;
+  width: 1.67%;
+  top: 8.14%;
+  right: 67.36%;
+  bottom: 90.41%;
+  left: 30.97%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.textPlaceholder {
+  border: 0;
+  background-color: transparent;
+  font-family: var(--heading-h2);
+  font-size: var(--font-size-xl);
+  position: absolute;
+  height: 51.52%;
+  width: 51.89%;
+  top: 40.91%;
+  left: 20.94%;
+  line-height: 150%;
+  color: var(--color-gray-1700);
+  text-align: left;
+  display: inline-block;
+}
+.group481543defaultParent,
+.groupInner {
+  position: absolute;
+  top: 1151px;
+  left: 644px;
+  width: 449px;
+  height: 66px;
+}
+.groupInner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro-300);
+  top: 0;
+  left: 167px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 154px;
+  height: 40px;
+  mix-blend-mode: normal;
+}
+.groupInner:hover {
+  background-color: var(--color-gray-1300);
+}
+.groupInner:active {
+  background-color: var(--color-gray-1200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.buyTime,
+.div2 {
+  position: absolute;
+  top: 14px;
+  left: 60px;
+  line-height: 150%;
+  display: inline-block;
+  width: 142px;
+  height: 31px;
+}
+.buyTime {
+  left: 202px;
+}
+.tetherUsdt,
+.vuesaxlineartetherUsdt1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 344px;
+  height: 45px;
+}
+.vuesaxlineartetherUsdt1 {
+  top: -23px;
+  left: -64px;
+}
+.vuesaxlineartetherUsdt {
+  position: absolute;
+  top: 33px;
+  left: 130px;
+  width: 24px;
+  height: 24px;
+  font-size: var(--font-size-base);
+}
+.vuesaxlineartetherUsdtIcon {
+  position: absolute;
+  top: 23.6px;
+  left: 80.26px;
+  width: 296.74px;
+  height: 33.4px;
+}
+.desktop1,
+.vuesaxlinearheartIcon {
+  position: absolute;
+  top: 188px;
+  left: 236px;
+  width: 24px;
+  height: 24px;
+}
+.desktop1 {
+  top: 292px;
+  left: -1px;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 1658px;
+  overflow: hidden;
+}
+.frameParent,
+.frameWrapper,
+.viewPostInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1804px;
+}
+.frameWrapper,
+.viewPostInner {
+  top: -146px;
+}
+.viewPostInner {
+  top: 0;
+  height: 1658px;
+}
+.vectorIcon,
+.vuesaxlinearheartSlashIcon1 {
+  position: relative;
+  width: 20px;
+  height: 17.8px;
+  flex-shrink: 0;
+}
+.vuesaxlinearheartSlashIcon1 {
+  width: 24px;
+  height: 24px;
+}
+.vectorParent,
+.viewPostChild {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vectorParent {
+  gap: var(--gap-7xs);
+}
+.viewPostChild {
+  position: absolute;
+  height: 1.47%;
+  width: 4.03%;
+  top: 31.47%;
+  right: 25.14%;
+  bottom: 67.06%;
+  left: 70.83%;
+}
+.viewPost {
+  position: relative;
+  width: 100%;
+  height: 1635px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--heading-h2);
+}

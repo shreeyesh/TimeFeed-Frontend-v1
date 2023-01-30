@@ -1,0 +1,73 @@
+.dividerIcon {
+  position: relative;
+  width: 1110px;
+  height: 1px;
+  flex-shrink: 0;
+}
+.image36Icon,
+.image37Icon,
+.image38Icon,
+.image39Icon,
+.image41Icon {
+  position: relative;
+  width: 79.38px;
+  height: 28px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image37Icon,
+.image38Icon,
+.image39Icon,
+.image41Icon {
+  width: 132.16px;
+}
+.image38Icon,
+.image39Icon,
+.image41Icon {
+  width: 119.75px;
+  height: 30px;
+}
+.image39Icon,
+.image41Icon {
+  width: 130.79px;
+}
+.image41Icon {
+  width: 75.33px;
+}
+.logos,
+.logosSection {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md) 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.logosSection {
+  flex-direction: column;
+  padding: var(--padding-lg) 0;
+  justify-content: center;
+  gap: var(--gap-2xs);
+}
+.logoClouds1 {
+  position: absolute;
+  height: 14.17%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 85.83%;
+  left: 0;
+  background-color: var(--color-white);
+  display: none;
+  flex-direction: column;
+  padding: 0 var(--padding-7xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logoClouds1Parent {
+  position: relative;
+  width: 100%;
+  height: 1129px;
+}

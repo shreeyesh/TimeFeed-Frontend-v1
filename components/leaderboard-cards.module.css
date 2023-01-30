@@ -1,0 +1,141 @@
+.b,
+.image29Icon {
+  position: absolute;
+}
+.b {
+  top: 24px;
+  left: 12px;
+  font-size: var(--font-size-3xl);
+  line-height: 160%;
+}
+.image29Icon {
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.profile {
+  position: relative;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-white);
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+.description,
+.label {
+  position: relative;
+  font-weight: 500;
+}
+.label {
+  align-self: stretch;
+  line-height: 20px;
+}
+.description {
+  line-height: 16px;
+}
+.descriptionParent,
+.descriptionWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--color-dimgray-200);
+}
+.descriptionParent {
+  justify-content: center;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-base);
+  color: var(--grey-500);
+}
+.info {
+  width: 206px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+  z-index: 1;
+}
+.verified1Icon {
+  position: absolute;
+  margin: 0 !important;
+  bottom: -8px;
+  left: 28px;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 2;
+}
+.profileParent {
+  position: absolute;
+  top: 14px;
+  left: 46px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  color: var(--color-gray-400);
+}
+.label1 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.image28Icon {
+  position: relative;
+  width: 7px;
+  height: 12px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image28Parent,
+.info1 {
+  display: flex;
+  gap: var(--gap-12xs);
+}
+.image28Parent {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-200);
+}
+.info1 {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 345px;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+  color: var(--green-3);
+}
+.dividerIcon {
+  position: absolute;
+  top: 79px;
+  left: 45px;
+  width: 340px;
+  height: 1px;
+}
+.parent {
+  position: relative;
+  background-color: var(--color-white);
+  width: 430px;
+  height: 80px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-200);
+  font-family: var(--heading-h2);
+}

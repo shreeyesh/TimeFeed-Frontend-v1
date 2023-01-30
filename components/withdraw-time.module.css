@@ -1,0 +1,119 @@
+.marketplaceInNumber {
+  position: relative;
+  display: inline-block;
+  width: 542px;
+}
+.marketplaceInNumberWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.create,
+.joinOurMailing {
+  position: relative;
+  display: inline-block;
+}
+.joinOurMailing {
+  font-size: var(--font-size-xl);
+  line-height: 160%;
+  color: var(--color-whitesmoke-200);
+  width: 542px;
+}
+.create {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+  font-family: var(--heading-h2);
+  color: var(--color-cornflowerblue-300);
+  text-align: center;
+}
+.button,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 1px solid var(--color-cornflowerblue-300);
+  padding: var(--padding-md) var(--padding-2xl);
+  background-color: var(--color-white);
+  border-radius: var(--br-3xl);
+}
+.frameGroup {
+  gap: var(--gap-8xs);
+}
+.lineIcon {
+  align-self: stretch;
+  position: relative;
+  max-height: 100%;
+  width: 2px;
+  flex-shrink: 0;
+}
+.details,
+.div {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.details {
+  border: 0;
+  background-color: transparent;
+  display: flex;
+  font-family: var(--heading-h2);
+  font-size: var(--font-size-5xl);
+  overflow: hidden;
+  flex-direction: column;
+}
+.div {
+  gap: var(--gap-5xs);
+}
+.div,
+.parent,
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.parent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.wrapper {
+  align-items: center;
+  justify-content: center;
+}
+.frameContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.frameWrapper {
+  position: relative;
+  width: 540px;
+  height: 162px;
+  flex-shrink: 0;
+}
+.frameParent {
+  position: absolute;
+  top: 34px;
+  left: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+  font-family: var(--heading-h2);
+}

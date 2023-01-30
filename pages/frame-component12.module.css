@@ -1,0 +1,22 @@
+.frameChild,
+.frameItem {
+  position: relative;
+  height: 103px;
+  flex-shrink: 0;
+}
+.frameChild {
+  background-color: var(--color-gainsboro-200);
+  width: 110px;
+}
+.frameItem {
+  width: 103px;
+}
+.rectangleParent {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 67px;
+}

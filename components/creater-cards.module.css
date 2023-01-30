@@ -1,0 +1,164 @@
+.image67Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 200px;
+  object-fit: cover;
+}
+.image67Wrapper,
+.image71Icon {
+  position: absolute;
+  overflow: hidden;
+}
+.image67Wrapper {
+  top: 8px;
+  left: 8px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 384px;
+  height: 100px;
+}
+.image71Icon {
+  height: 116.67%;
+  width: 116.67%;
+  top: 0;
+  right: -16.67%;
+  bottom: -16.67%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.profile {
+  position: relative;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--grey-200);
+  box-sizing: border-box;
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+.verified2Icon {
+  position: absolute;
+  margin: 0 !important;
+  height: 46.59%;
+  width: 56.16%;
+  top: 64.31%;
+  right: -13.11%;
+  bottom: -10.89%;
+  left: 56.94%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.profileParent {
+  position: absolute;
+  top: 64px;
+  left: 164px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.kellyRoss {
+  position: relative;
+  font-weight: 600;
+}
+.ghostOfIcp {
+  font-weight: 600;
+  color: var(--color-cornflowerblue-300);
+}
+.clanGhostContainer {
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--grey-500);
+}
+.kellyRossParent {
+  position: absolute;
+  top: 152px;
+  left: 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.k,
+.posts {
+  position: relative;
+}
+.k {
+  font-weight: 600;
+  color: var(--color-gray-400);
+}
+.postsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-12xs);
+}
+.identity {
+  background-color: var(--color-white);
+  border-right: 1px solid var(--color-aliceblue);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image30Icon {
+  position: relative;
+  width: 9.85px;
+  height: 16px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.identity3,
+.image30Parent,
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.image30Parent {
+  justify-content: center;
+  gap: var(--gap-12xs);
+  color: var(--color-gray-400);
+}
+.identity3,
+.info {
+  justify-content: flex-start;
+}
+.identity3 {
+  background-color: var(--color-white);
+  padding: var(--padding-7xs) var(--padding-xs);
+}
+.info {
+  position: absolute;
+  top: 215px;
+  left: 21px;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-base);
+  color: var(--grey-500);
+}
+.frameParent {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  box-shadow: 0 8px 12px rgba(30, 30, 30, 0.04);
+  width: 400px;
+  height: 270px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-400);
+  font-family: var(--heading-h2);
+}

@@ -1,0 +1,10 @@
+.frameChild {
+  border: 0;
+  font-family: var(--heading-h2);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  position: relative;
+  width: 337px;
+  height: 56px;
+  flex-shrink: 0;
+}

@@ -1,0 +1,77 @@
+.timefeedLowResolutionLogoBIcon {
+  position: relative;
+  width: 272px;
+  height: 74px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.darkModeChild {
+  position: absolute;
+  top: 16px;
+  left: 51px;
+  width: 28px;
+  height: 27px;
+}
+.darkMode,
+.explore {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: relative;
+}
+.darkMode {
+  background-color: var(--color-dodgerblue-100);
+  border-radius: var(--br-3xl);
+  width: 89px;
+  height: 59px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.explore {
+  background-color: transparent;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  font-family: var(--heading-h2);
+  color: var(--color-cornflowerblue-300);
+  text-align: left;
+  display: inline-block;
+}
+.menus {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.accountBalanceWalletBlack2Icon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.timefeedLowResolutionLogoBParent {
+  width: 1351px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-3xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}

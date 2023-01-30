@@ -1,0 +1,233 @@
+.image29Icon,
+.image46Icon {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+}
+.image46Icon {
+  left: 0.14px;
+  border-radius: var(--br-3xs);
+  width: 301.71px;
+  height: 330px;
+}
+.image29Icon {
+  height: 115.38%;
+  width: 115.38%;
+  right: -15.38%;
+  bottom: -15.38%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.profile,
+.profile1,
+.profile2,
+.profile3,
+.profile4 {
+  position: relative;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--grey-200);
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+.profile1,
+.profile2,
+.profile3,
+.profile4 {
+  z-index: 1;
+  margin-left: -12px;
+}
+.profile2,
+.profile3,
+.profile4 {
+  z-index: 2;
+}
+.profile3,
+.profile4 {
+  z-index: 3;
+}
+.profile4 {
+  z-index: 4;
+}
+.verified2Icon {
+  position: absolute;
+  margin: 0 !important;
+  height: 55.56%;
+  width: 13.89%;
+  top: 63.89%;
+  right: -1.77%;
+  bottom: -19.44%;
+  left: 87.88%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 5;
+}
+.profileParent {
+  position: absolute;
+  top: 310px;
+  left: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupChild,
+.iconlyboldgraph {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.groupChild {
+  border-radius: var(--br-xl);
+  width: 124px;
+  height: 48px;
+  object-fit: cover;
+}
+.iconlyboldgraph {
+  height: 96%;
+  width: 22.87%;
+  right: 77.13%;
+  bottom: 4%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div {
+  position: absolute;
+  top: 3px;
+  left: 28.92px;
+  letter-spacing: 0.01em;
+  line-height: 22px;
+  font-weight: 500;
+}
+.iconlyboldgraphParent {
+  position: absolute;
+  height: 52.08%;
+  width: 81.38%;
+  top: 22.92%;
+  right: 9.68%;
+  bottom: 25%;
+  left: 8.94%;
+}
+.auctions1,
+.auctionsChild,
+.rectangleParent {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 124px;
+  height: 48px;
+}
+.auctions1,
+.auctionsChild {
+  left: 242px;
+  width: 48px;
+  height: 102px;
+}
+.auctions1 {
+  top: 8px;
+  left: 8px;
+  border-radius: var(--br-xs);
+  width: 302px;
+  height: 330px;
+  background-image: url(../public/Assets/auctions1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: var(--color-white);
+}
+.climateChangeA,
+.image29Icon5 {
+  position: relative;
+  flex-shrink: 0;
+}
+.climateChangeA {
+  font-weight: 600;
+  display: inline-block;
+  width: 267px;
+}
+.image29Icon5 {
+  width: 14.77px;
+  height: 24px;
+  object-fit: cover;
+}
+.climateChangeAGlobalCrisiParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.description {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+  display: inline-block;
+  width: 290px;
+  flex-shrink: 0;
+}
+.descriptionWrapper,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  justify-content: center;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-200);
+}
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.frameParent {
+  position: absolute;
+  top: 374px;
+  left: 12px;
+  gap: var(--gap-3xl);
+  font-size: var(--font-size-3xl);
+}
+.div1,
+.timeGained {
+  position: absolute;
+  top: 476px;
+  font-weight: 600;
+}
+.timeGained {
+  left: 24px;
+  display: inline-block;
+  width: 221px;
+}
+.div1 {
+  left: 245px;
+  color: var(--color-cornflowerblue-300);
+  text-align: right;
+}
+.auctions {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  box-shadow: 0 8px 12px rgba(30, 30, 30, 0.04);
+  width: 318px;
+  height: 506px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+  font-family: var(--heading-h2);
+}
