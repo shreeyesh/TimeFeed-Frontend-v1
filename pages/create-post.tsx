@@ -154,11 +154,11 @@ const CreatePost: NextPage = () => {
                 <div className={styles.papersChild} />
                 <div className={styles.papersItem} />
                 <div className={styles.papersInner} />
-                <img
+                {/* <img
                   className={styles.dragIcon}
                   alt=""
                   src="../Assets/drag2@2x.png"
-                />
+                /> */}
               </div>
               <div className={styles.folderChild} />
             </div>
@@ -178,7 +178,7 @@ const CreatePost: NextPage = () => {
           <div className={styles.frameGroup}>
             <div className={styles.subHeadingParent}>
               <div className={styles.subHeading}>POST</div>
-              <Menu className={styles.categoriesParent}>
+              {/* <Menu className={styles.categoriesParent}> */}
                 <MenuButton
                   w="395px"
                   as={Button}
@@ -197,7 +197,7 @@ const CreatePost: NextPage = () => {
                   <MenuItem value="Movies">Movies</MenuItem>
                   <MenuItem value="Games">Games</MenuItem>
                 </MenuList>
-              </Menu>
+              {/* </Menu> */}
             </div>
             <input
               className={styles.frameChild}

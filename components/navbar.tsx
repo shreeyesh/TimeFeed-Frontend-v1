@@ -92,7 +92,7 @@ const Navbar: NextPage<NavbarType> = ({
         <button
           className={styles.darkMode}
           onClick={onDarkModeClick}
-          src={darkMode}
+          // src={darkMode}
           style={darkModeStyle}
         >
           <img

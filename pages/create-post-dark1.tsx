@@ -3,10 +3,10 @@ import { useState, useCallback } from "react";
 import { Menu, Button, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import { useRouter } from "next/router";
-import PostSuccess from "../components/post-success";
+// import PostSuccess from "../components/post-success";
 import PortalPopup from "../components/portal-popup";
 import PostCreated from "../components/post-created";
-import PostContainer11111111111 from "../components/frame-34331";
+// import PostContainer11111111111 from "../components/frame-34331";
 import styles from "./create-post-dark1.module.css";
 
 const CreatePostDark1: NextPage = () => {
@@ -152,7 +152,7 @@ const CreatePostDark1: NextPage = () => {
           <div className={styles.frameGroup}>
             <div className={styles.subHeadingParent}>
               <div className={styles.subHeading}>POST</div>
-              <Menu className={styles.categoriesParent}>
+              {/* <Menu className={styles.categoriesParent}> as HTMLElement */}
                 <MenuButton
                   w="395px"
                   as={Button}
@@ -171,7 +171,7 @@ const CreatePostDark1: NextPage = () => {
                   <MenuItem value="Movies">Movies</MenuItem>
                   <MenuItem value="Games">Games</MenuItem>
                 </MenuList>
-              </Menu>
+              {/* </Menu> */}
             </div>
             <div className={styles.fieldParent}>
               <div className={styles.field} />
@@ -268,12 +268,12 @@ const CreatePostDark1: NextPage = () => {
         </div>
         <div className={styles.textArea}>Text Area</div>
         <img className={styles.icon5} alt="" />
-        <PostContainer111111111111
+        {/* <PostContainer111111111111
           carImageUrl="image-29127@2x.png"
           propColor="#fff"
           propColor1="#fff"
           propColor2="#13a7fd"
-        />
+        /> */}
         <form className={styles.group481543default}>
           <img
             className={styles.image30Icon}
@@ -653,14 +653,14 @@ const CreatePostDark1: NextPage = () => {
                   src="../Assets/vuesaxlinearheartslash56.svg"
                 />
               </div>
-              <PostContainer111111111111
+              {/* <PostContainer111111111111
                 carImageUrl="image-2917@2x.png"
                 propTop="374px"
                 propLeft="12px"
                 propColor="#fff"
                 propColor1="#fff"
                 propColor2="#13a7fd"
-              />
+              /> */}
             </article>
           </div>
         </div>
@@ -1056,7 +1056,7 @@ const CreatePostDark1: NextPage = () => {
           placement="Centered"
           onOutsideClick={closePostSuccessPopup}
         >
-          <PostSuccess onClose={closePostSuccessPopup} />
+          {/* <PostSuccess onClose={closePostSuccessPopup} /> */}
         </PortalPopup>
       )}
       {isPostCreatedPopupOpen && (
