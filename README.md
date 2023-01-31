@@ -5,7 +5,7 @@ TimeFeed is a decentralized web3 social media platform that incentivizes user en
 
 In addition, original posters have an option to cash out their post time for $TIME tokens, but this will decrease the number of minutes on the post depending on how much time they exchange for money. As a user acquisition strategy, each user is provided with 1 free upvote/downvote per post.
 
-![TimeFeed Logo](https://drive.google.com/file/d/1c41L3okKp_n9TT9OYsoCaQIeJqrrhRTD/view?usp=share_link)
+![timefeed-logo-background](https://user-images.githubusercontent.com/58028401/215619014-876965d0-b9d2-4a68-acd3-ed9d0244ad2f.png)
 
 ## Features
 
